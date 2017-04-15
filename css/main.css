@@ -1,0 +1,33 @@
+.center, header ul {
+  margin: 0 auto; }
+
+header {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+  header ul li:hover {
+    background: #orange; }
+  header ul li a {
+    padding: 15px;
+    color: blue; }
+    header ul li a:hover {
+      color: #000; }
+
+main .container,
+main .wrapper {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto; }
+
+.col-6 {
+  width: 50%; }
+
+body {
+  background: red;
+  height: 2000px; }
+
+@media (max-width: 768px) {
+  header a {
+    color: green; } }
+
+/*# sourceMappingURL=main.css.map */
