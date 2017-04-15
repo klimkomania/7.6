@@ -21,7 +21,7 @@ grunt.initConfig({
 	            dest: 'images/build/'
 	       	}]
 	    }
-	}
+	},
 	watch: {
 	    scripts: {
 	        files: ['sass/*.sass'],
@@ -30,7 +30,7 @@ grunt.initConfig({
 	            spawn: false,
 	        },
 	    } 
-	}, 
+	} 
 });
   // Load the plugins tasks 
   grunt.loadNpmTasks('grunt-sass');
